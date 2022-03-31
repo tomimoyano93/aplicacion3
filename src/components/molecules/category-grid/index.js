@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Text, TouchableOpacity} from 'react-native';
 import { styles } from './styles';
 
-
 const CategoryGrid = ({ item, onSelected }) => {
     return (    
          <View style={[styles.container, {backgroundColor: item.color}]}>
